@@ -11658,6 +11658,25 @@ h5,
 .project.img-2 {
   height: 600px;
 }
+.github-btn {
+  display: none;
+  position: absolute;
+  bottom: 20%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for the link */
+}
+
+.project:hover .github-btn {
+  display: block;
+}
+
 @media (max-width: 767.98px) {
   .project.img-2 {
     height: 285px;
